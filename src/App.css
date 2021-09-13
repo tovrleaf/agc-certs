@@ -9,8 +9,14 @@ figcaption {
 
 .ReactGridGallery .ReactGridGallery_tile {
   padding: 4px !important;
+  margin-bottom: 30px !important;
 }
 
+.ReactGridGallery_tile-description {
+  position: relative;
+  top: 25px;
+  text-align: center;
+}
 .ReactGridGallery_tile-bottom-bar {
   text-align: right;
 }
