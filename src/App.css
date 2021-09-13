@@ -1,0 +1,24 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+figcaption {
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.ReactGridGallery .ReactGridGallery_tile {
+  padding: 4px !important;
+}
+
+.ReactGridGallery_tile-bottom-bar {
+  text-align: right;
+}
+.ReactGridGallery_tile-bottom-bar > div {
+  padding-bottom: 6px !important;
+}
+.ReactGridGallery_tile-bottom-bar > div:last-child > span {
+  color: #FFF92E !important;
+  opacity: 0.9;
+  margin-right: 12px !important;
+}
