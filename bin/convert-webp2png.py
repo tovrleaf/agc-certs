@@ -5,7 +5,7 @@ import os
 import sys
 
 fromFile = sys.argv[1]
-toStr = 'public/certs/%s.png' % '_'.join(sys.argv[2:]).lower()
+toStr = 'docs/certs/%s.png' % '_'.join(sys.argv[2:]).lower()
 
 im = Image.open(fromFile).convert('RGB')
 im.save(toStr, 'png')

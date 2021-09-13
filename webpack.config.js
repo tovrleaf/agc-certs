@@ -26,18 +26,18 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, "public/"),
+      directory: path.join(__dirname),
     },
     port: 3000
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'public/', 'index.html'),
+      template: path.resolve(__dirname, 'index.html'),
       filename: path.resolve(__dirname, 'docs/', 'index.html'),
     }),
     new webpack.DefinePlugin({
-      CERTS_DIR: JSON.stringify(process.env.PRODUCTION ? '../public/': '')
+      CERTS_DIR: JSON.stringify(process.env.PRODUCTION ? '': 'docs/')
     })
   ]
 };
