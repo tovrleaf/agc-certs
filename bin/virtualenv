@@ -4,3 +4,4 @@ cd "$(dirname $0)/.."
 
 pipenv --python $(which python3)
 pipenv shell
+pipenv install --dev
