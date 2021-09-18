@@ -8,7 +8,8 @@ const imgArr = {
   'network_routing_fundamentals':                 ['Network Routing Fundamentals', 2.8, '14 Sep 2021'],
   'python_3_scripting_for_system_administrators': ['Python 3 Scripting for System Administrators', 10, '15 Sep 2021'],
   'aws_certification_preparation_guide':          ['AWS Certification Preparation Guide', 3.2, '16 Sep 2021'],
-  'python_for_beginner_legacy':                   ['Python for Beginners (legacy)', 6.1, '17 Sep 2021']
+  'python_for_beginner_legacy':                   ['Python for Beginners (legacy)', 6.1, '17 Sep 2021'],
+  'coding_for_cloud_101_legacy':                  ['Coding for Cloud 101 (legacy)', 1.4, '18 Sep 2021'],
 }
 // sort by date
 var sorted = Object.entries(imgArr).sort(([, a] ,[, b]) => Date.parse(a[2]) - Date.parse(b[2])).reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
