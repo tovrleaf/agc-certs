@@ -10,6 +10,7 @@ const imgArr = {
   'aws_certification_preparation_guide':          ['AWS Certification Preparation Guide', 3.2, '16 Sep 2021'],
   'python_for_beginner_legacy':                   ['Python for Beginners (legacy)', 6.1, '17 Sep 2021'],
   'coding_for_cloud_101_legacy':                  ['Coding for Cloud 101 (legacy)', 1.4, '18 Sep 2021'],
+  'aws_cost_control_legacy':                      ['AWS Cost Control (legacy)', 4.5, '19 Sep 2021'],
 }
 // sort by date
 var sorted = Object.entries(imgArr).sort(([, a] ,[, b]) => Date.parse(a[2]) - Date.parse(b[2])).reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
