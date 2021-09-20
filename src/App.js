@@ -11,6 +11,7 @@ const imgArr = {
   'python_for_beginner_legacy':                   ['Python for Beginners (legacy)', 6.1, '17 Sep 2021'],
   'coding_for_cloud_101_legacy':                  ['Coding for Cloud 101 (legacy)', 1.4, '18 Sep 2021'],
   'aws_cost_control_legacy':                      ['AWS Cost Control (legacy)', 4.5, '19 Sep 2021'],
+  'aws_cloud_services_and_infrastructure_-_cost_optimization_deep_dive': ['AWS Cloud Services and Infrastructure - Cost Optimization Deep Dive', 11.7, '20 Sep 2021'],
 }
 // sort by date
 var sorted = Object.entries(imgArr).sort(([, a] ,[, b]) => Date.parse(a[2]) - Date.parse(b[2])).reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
@@ -33,11 +34,13 @@ for (const [k, v] of Object.entries(sorted).reverse()) {
 }
 
 total = Math.round(total * 10) / 10
+var days = Math.floor(total / 24);
+var hours = Math.round(total % 24 * 10) / 10;
 class App extends Component{
   render() {
     return(
       <div className="App">
-        <p>{images.length} courses, {total} hours in total.</p>
+        <p>{images.length} courses, {days} days, {hours} hours in total.</p>
         <Gallery images={images} enableImageSelection={false} />
       </div>
     );
