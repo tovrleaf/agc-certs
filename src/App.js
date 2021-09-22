@@ -13,6 +13,7 @@ const imgArr = {
   'aws_cost_control_legacy':                      ['AWS Cost Control (legacy)', 4.5, '19 Sep 2021'],
   'aws_cloud_services_and_infrastructure_-_cost_optimization_deep_dive': ['AWS Cloud Services and Infrastructure - Cost Optimization Deep Dive', 11.7, '20 Sep 2021'],
   'introduction_to_aws_legacy':                   ['Introduction to AWS (Legacy)', 1.5, '21 Sep 2021'],
+  'storage_databases_and_migration_for_associate_aws_solutions_architects': ['Storage, Databases, and Migration for Associate AWS Solutions Architects', 7.8, '22 Sep 2021'],
 }
 // sort by date
 var sorted = Object.entries(imgArr).sort(([, a] ,[, b]) => Date.parse(a[2]) - Date.parse(b[2])).reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
