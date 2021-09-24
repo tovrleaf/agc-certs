@@ -15,6 +15,7 @@ const imgArr = {
   'introduction_to_aws_legacy':                   ['Introduction to AWS (Legacy)', 1.5, '21 Sep 2021'],
   'storage_databases_and_migration_for_associate_aws_solutions_architects': ['Storage, Databases, and Migration for Associate AWS Solutions Architects', 7.8, '22 Sep 2021'],
   'introduction_to_amazon_rds':                   ['Introduction to Amazon RDS', 3.1, '23 Sep 2021'],
+  'aws_certified_cloud_practitioner_2020':        ['AWS Certified Cloud Practitioner 2020', 13.2, '21 Nov 2020'],
 }
 
 // sort by date
