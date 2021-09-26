@@ -17,6 +17,7 @@ const imgArr = {
   'introduction_to_amazon_rds':                   ['Introduction to Amazon RDS', 3.1, '23 Sep 2021'],
   'aws_certified_cloud_practitioner_2020':        ['AWS Certified Cloud Practitioner 2020', 13.2, '21 Nov 2020'],
   'introduction_to_aws_cloudformation':           ['Introduction to AWS CloudFormation', 2, '24 Sep 2021'],
+  'kubernetes_deep_dive':                         ['Kubernetes Deep Dive ', 4.7, '26 Sep 2021'],
 }
 
 // sort by date
