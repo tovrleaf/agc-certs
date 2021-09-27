@@ -18,6 +18,7 @@ const imgArr = {
   'aws_certified_cloud_practitioner_2020':        ['AWS Certified Cloud Practitioner 2020', 13.2, '21 Nov 2020'],
   'introduction_to_aws_cloudformation':           ['Introduction to AWS CloudFormation', 2, '24 Sep 2021'],
   'kubernetes_deep_dive':                         ['Kubernetes Deep Dive ', 4.7, '26 Sep 2021'],
+  's3_masterclass':                               ['S3 Masterclass ', 12.1, '27 Sep 2021'],
 }
 
 // sort by date
