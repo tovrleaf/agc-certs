@@ -20,6 +20,7 @@ const imgArr = {
   'kubernetes_deep_dive':                         ['Kubernetes Deep Dive ', 4.7, '26 Sep 2021'],
   's3_masterclass':                               ['S3 Masterclass ', 12.1, '27 Sep 2021'],
   'aws_essentials':                               ['AWS Essentials ', 14.9, '28 Sep 2021'],
+  'designing_resilient_architectures_for_associate_aws_solutions_architects': ['Designing Resilient Architectures for Associate AWS Solutions Architects', 5, '29 Sep 2021'],
 }
 
 // sort by date
