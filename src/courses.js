@@ -17,5 +17,6 @@ const f = () => [
   ['S3 Masterclass', 12.1, '27 Sep 2021'],
   ['AWS Essentials', 14.9, '28 Sep 2021'],
   ['Designing Resilient Architectures for Associate AWS Solutions Architects', 5, '29 Sep 2021'],
+  ['AWS Certified Solutions Architect Associate SAA-C02', 35.7, '01 Sep 2021'],
 ];
 export default f;

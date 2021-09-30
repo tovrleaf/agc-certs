@@ -5,7 +5,8 @@ import transform from './nameTransform';
 import courses from './courses'
 
 // sort by date
-var sorted = Object.entries(courses()).sort(([, a] ,[, b]) => Date.parse(a[2]) - Date.parse(b[2])).reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
+var sorted = courses()
+sorted.sort((a ,b) => Date.parse(a[2]) - Date.parse(b[2]));
 
 var images = [];
 var total = 0;
