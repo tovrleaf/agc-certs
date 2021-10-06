@@ -20,5 +20,6 @@ const f = () => [
   ['AWS Certified Solutions Architect Associate SAA-C02', 35.7, '01 Sep 2021'],
   ['Networking and Compute for Associate AWS Solutions Architects', 12.1, '01 Oct 2021'],
   ['Logging and Security for Associate AWS Solutions Architects', 7.8, '04 Oct 2021'],
+  ['High Availability and Scalability for Associate AWS Solutions Architects', 5.1, '06 Oct 2021'],
 ];
 export default f;
