@@ -21,5 +21,6 @@ const f = () => [
   ['Networking and Compute for Associate AWS Solutions Architects', 12.1, '01 Oct 2021'],
   ['Logging and Security for Associate AWS Solutions Architects', 7.8, '04 Oct 2021'],
   ['High Availability and Scalability for Associate AWS Solutions Architects', 5.1, '06 Oct 2021'],
+  ['Application Services for Associate AWS Solutions Architects', 13, '08 Oct 2021'],
 ];
 export default f;

@@ -27,13 +27,25 @@ for (const [k, v] of Object.entries(sorted).reverse()) {
 }
 
 total = Math.round(total * 10) / 10
-var days = Math.floor(total / 24);
+var weeks = Math.floor(total / 24 / 7);
+var days = Math.floor(total / 24) % 7;
 var hours = Math.round(total % 24 * 10) / 10;
+
+var times = []
+if (weeks > 0) {
+  times.push(weeks + ' week' + (weeks > 1 ? 's' : ''));
+}
+if (days > 0) {
+  times.push(days + ' day' + (days > 1 ? 's' : ''));
+}
+if (hours > 0) {
+  times.push(hours + ' hour' + (hours > 1 ? 's' : ''));
+}
 class App extends Component{
   render() {
     return(
       <div className="App">
-        <p>{images.length} courses, {days} days, {hours} hours in total.</p>
+        <p>{images.length} courses, {times.join(', ')} in total.</p>
         <Gallery images={images} enableImageSelection={false} />
       </div>
     );
