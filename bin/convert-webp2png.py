@@ -14,7 +14,7 @@ script = os.path.join(
         )
 
 p = subprocess.run(
-	['node', script, ' '.join(fromName)], stdout=subprocess.PIPE)
+        ['node', script, ' '.join(fromName)], stdout=subprocess.PIPE)
 toStr = 'docs/certs/%s' % p.stdout.strip().decode('utf-8')
 
 im = Image.open(fromFile).convert('RGB')
