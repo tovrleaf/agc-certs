@@ -25,5 +25,6 @@ const f = () => [
   ['Mastering the AWS Well-Architected Framework', 5.1, '11 Oct 2021'],
   ['Introduction to AWS', 5, '30  Oct 2021'],
   ['AWS Certified Cloud Practitioner (CLF-C01)', 9.9, '07 Nov 2021'],
+  ['Introduction to Python Scripting', 5.4, '19 Nov 2021'],
 ];
 export default f;
